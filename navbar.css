@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #db1515;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border-top-width: 0px;
+    display: inline-block;
+    width: 100vw;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: Arial;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+li a:hover {
+    background-color: #ff0000;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+body {
+    margin: 0;
+}
