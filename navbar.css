@@ -1,4 +1,4 @@
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,11 +12,11 @@ ul {
     width: 100vw;
 }
 
-li {
+.navbar li {
     float: left;
 }
 
-li a {
+.navbar li a {
     font-family: Arial;
     display: block;
     color: white;
@@ -26,14 +26,14 @@ li a {
     display: block;
 }
 
-li a:hover {
+.navbar li a:hover {
     background-color: #ff0000;
 }
 
-.active {
+.navbar .active {
     background-color: #04AA6D;
 }
 
-body {
+.navbar body {
     margin: 0;
 }
