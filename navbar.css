@@ -1,3 +1,8 @@
+.navbar {
+    height: 10vh;
+    /* display: block; */
+}
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -32,8 +37,4 @@
 
 .navbar .active {
     background-color: #04AA6D;
-}
-
-.navbar body {
-    margin: 0;
 }
